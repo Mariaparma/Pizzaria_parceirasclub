@@ -221,7 +221,8 @@ footer {
     padding: 10px;
     border-radius: 5px;
     width: calc(100% + 20px);
-    margin: 0 -10px;     box-sizing: border-box; 
+    margin: 0 -10px;
+    box-sizing: border-box; 
 }
 
 .social-icon {
