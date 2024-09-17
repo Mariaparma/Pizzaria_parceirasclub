@@ -221,6 +221,7 @@ footer {
     padding: 10px;
     border-radius: 5px;
     width: calc(100% + 20px);
+<<<<<<< Updated upstream
     margin: 0 -10px;     box-sizing: border-box; 
 }
 
@@ -236,4 +237,8 @@ footer {
     width: 100%; 
     height: 100%; 
     object-fit: contain; 
+=======
+    margin: 0 -10px;
+    box-sizing: border-box; 
+>>>>>>> Stashed changes
 }
