@@ -163,3 +163,49 @@ margin-bottom: 10px;
     font-size: 0.9em;
     color: #ccc;
 }
+
+
+
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="date"],
+form input[type="url"],
+form select,
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.addresses {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 20px 0; 
+}
+
+.address {
+    flex: 1;
+    max-width: 300px; 
+    text-align: center;
+    padding: 10px; 
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    background-color: #D71920;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc(100% + 20px);
+    margin: 0 -10px;     box-sizing: border-box; 
+}
