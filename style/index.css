@@ -1,0 +1,118 @@
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article {
+    flex: 3;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
+    border-radius: 5px;
+}
+
+.article-header {
+    border-bottom: 2px solid hsl(0, 61%, 28%);;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+.article-title {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.article-meta {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+}
+
+.article-section {
+    margin-bottom: 20px;
+}
+
+.section-tittle {
+    font-size: 1.4rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    margin-bottom: 15px;
+    color:rgb(73, 56, 56);
+    line-height: 1.0;
+}
+
+.image-figure {
+    margin-top: px 0;
+}
+
+.article-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-caption {
+    text-align: center;
+    font-size: 0.10rem;
+    color: beige;
+    margin-top: 5px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
+    border-radius: 5px;
+}
+
+.sidebar-tittle {
+font-size: 1.6rem;
+color: black;
+margin-bottom: 10px;
+}
+
+.sidebar-text {
+    color: black;
+    line-height: 1.5;
+}
+
+.site-footer {
+    background-color: hsl(0, 61%, 28%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+    color: #ccc;
+}

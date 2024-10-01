@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="style/style.css"
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/contato.css">
 </head>
 <body>
     <header class="site-header">
@@ -18,8 +19,10 @@
         </nav>
     </header>
 
-    <main class="main-content"></main>
-        <section class="contact-section">
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+        <figure class="image-figure">
             <h2 class="section-title">Fale Conosco</h2>
             <p class="section-text">Se você tiver alguma dúvida, sugestão ou comentário, por favor preencha o formulário abaixo. Estamos sempre abertos para ouvir o que você tem a dizer.</p>
             <form action="#" method="post" class="contact-form">
@@ -27,12 +30,12 @@
                 <div class="form-group">
                     <label for="nome" class="form-label">Nome:</label>
                     <input type="text" id="nome" name="nome" class="form-input" required
-                /div>
+                </div>
 
                 <div class="form-group">
                     <label for="email" class="form-label">Email:</label>
                     <input type="email" id="email" name="email" class="form-input" required
-                /div>
+                </div>
 
                 <div class="form-group">
                     <label for="cidade">Cidade</label>
@@ -43,7 +46,6 @@
             </select>
                 </div>
 
-
                 <div class="form-group">
                     <label for="descricao">Descrição:</label>
             <textarea id="descricao" name="descricao" rows="5" placeholder="Deixe sua mensagem!" required></textarea>
@@ -52,6 +54,22 @@
                 <button type="submit" class="form-button">Enviar</button>
             </form>
         </section>
+    </main>
+</header>
+        <div class="addresses"></div>
+            <div class="address">
+                <h3>Unidade de Santa Catarina</h3>
+                <p>R Guilherme Poerner 1015, Água Verde.</p>
+                <p>(47) 3324-1136 / 99205-3950</p>
+
+                <div class="address">
+                    <h3>Unidade de São Paulo</h3>
+                    <p>R. José Maria Lisboa, 493 - Jardim Paulista, São Paulo - SP, 01423-001</p>
+                    <p>(11) 3288-8502 / 3288-3512</p>
+                </div>
+                
+            </div>
+        </div>
 
     </main>
 
@@ -63,27 +81,12 @@
         </address>
         <p class="footer-copy">&copy; 2024 Meu site. Todos os direitos reservados.</p>
 
-        <div class="social-media-container">
+        <div class="social-media-container"></div>
             <div class="social-media">
                 <a href="#" class="social-icon"><img src="img/logo facebook.png" alt="Facebook"></a>
                 <a href="#" class="social-icon"><img src="img/logo instagram.png" alt="Instagram"></a>
                 <a href="#" class="social-icon"><img src="img/image.png" alt="WhatsApp"></a>
             </div>
-        </div>
-        <div class="addresses">
-            <div class="address">
-                <h3>Unidade de Santa Catarina</h3>
-                <p>R Guilherme Poerner 1015, Água Verde.</p>
-                <p>(47) 3324-1136 / 99205-3950</p>
-                
-            </div>
-            <div class="divider"></div>
-            <div class="address">
-                <h3>Unidade de São Paulo</h3>
-                <p>R. José Maria Lisboa, 493 - Jardim Paulista, São Paulo - SP, 01423-001</p>
-                <p>(11) 3288-8502 / 3288-3512</p>
-            </div>
-        </div>
     </footer>
 </body>
 </html>
