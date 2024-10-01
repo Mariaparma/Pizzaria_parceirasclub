@@ -238,3 +238,12 @@ footer {
     height: 100%; 
     object-fit: contain; 
 }
+
+footer {
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
