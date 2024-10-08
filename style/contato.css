@@ -13,20 +13,21 @@ form textarea{
     border-radius: 5px;
 }
 
-.addresses {
+.section-text,
+.section-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bestfriend {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px; 
-    padding: 20px 0; 
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .address {
-    flex: 1;
-    max-width: 300px; 
-    text-align: center;
-    padding: 10px; 
+    padding: 20px 0;
+    text-align: center; 
 }
 
 .site-footer {
