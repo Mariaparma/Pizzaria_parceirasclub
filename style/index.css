@@ -9,7 +9,7 @@
 
 .article {
     flex: 3;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(197, 168, 129);
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
@@ -51,6 +51,8 @@
 
 .image-figure {
     margin-top: px 0;
+    text-align: center;
+    padding: 20px;
 }
 
 .article-image {
@@ -68,7 +70,7 @@
 
 .sidebar {
     flex: 1;
-    background-color: #fff;
+    background-color: rgb(197, 168, 129);
     padding: 20px;
     box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
     border-radius: 5px;
