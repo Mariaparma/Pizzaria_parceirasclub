@@ -9,7 +9,7 @@
 
 .article {
     flex: 3;
-    background-color: rgb(197, 168, 129);
+    background-color: #fff0d9;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
@@ -70,7 +70,7 @@
 
 .sidebar {
     flex: 1;
-    background-color: rgb(197, 168, 129);
+    background-color: #fff0d9;
     padding: 20px;
     box-shadow: 0 2px 4px hsl(0, 61%, 28%);;
     border-radius: 5px;
