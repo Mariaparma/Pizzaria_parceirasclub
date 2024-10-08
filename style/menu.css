@@ -11,6 +11,9 @@
             padding: 20px;
             background-color: rgb(197, 168, 129);
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            
+            margin: 40px auto;
+            padding: 0 20px;
         }
         h1 {
             text-align: center;
